@@ -44,7 +44,7 @@ export const businesses = [
     icon: "fa-solid fa-money-bill",
     shortDescription: "Servicios de Finanzas DUCK",
     description:
-      "Servicios financieros DUCK, disponibles de lunes a viernes, de 8am - 6pm.",
+      "Servicios financieros DUCK, disponibles de lunes a viernes, de 8am - 6pm",
     phone: "444-4444",
     email: "duckspa@gmail.com",
   },
