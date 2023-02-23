@@ -8,7 +8,7 @@ export const businesses = [
     icon: "fa-solid fa-scissors",
     shortDescription: "Peluquería y Salón de Belleza Duck Spa",
     description:
-      "Peluquería Duck Spa, encargada del corte de pelo de las celebridades más reconocidas del país. Agenda abierta.",
+      "Peluquería Duck Spa, encargada del corte de pelo de las celebridades más reconocidas del país. Agenda abierta",
     phone: "111-1111",
     email: "duckspa@gmail.com",
   },
@@ -32,7 +32,7 @@ export const businesses = [
     icon: "fa-solid fa-mug-hot",
     shortDescription: "Cafetería Duck Café",
     description:
-      "Cafetería de renombre, con granos de café molidos el mismo día para vivir la mejor experiencia del café.",
+      "Cafetería de renombre, con granos de café molidos el mismo día para vivir la mejor experiencia del café",
     phone: "333-3333",
     email: "duckspa@gmail.com",
   },
@@ -56,7 +56,7 @@ export const businesses = [
     icon: "fa-solid fa-shirt",
     shortDescription: "Boutique de Ropa Importada, Duck Boutique",
     description:
-      "Ropa importada directamente desde Europa, manufacturada por las fábricas más importantes del continente.",
+      "Ropa importada directamente desde Europa, manufacturada por las fábricas más importantes del continente",
     phone: "555-5555",
     email: "duckspa@gmail.com",
   },
@@ -68,7 +68,7 @@ export const businesses = [
     icon: "fa-solid fa-pen",
     shortDescription: "Servicio de educadores Duck Tutores",
     description:
-      "Buscamos prestar la mejor experiencia que pueda brindar la enseñanza personalizada. Se realizan clases personales y en grupo.",
+      "Buscamos prestar la mejor experiencia que pueda brindar la enseñanza personalizada. Se realizan clases personales y en grupo",
     phone: "666-6666",
     email: "duckspa@gmail.com",
   },
@@ -80,7 +80,7 @@ export const businesses = [
     icon: "fa-solid fa-robot",
     shortDescription: "Automatización de Procesos Duck RPA",
     description:
-      "Duck RPA busca generar un avance enorme en el mundo empresarial de Chile, entregando el poder de la automatización de procesos.",
+      "Duck RPA busca generar un avance enorme en el mundo empresarial de Chile, entregando el poder de la automatización de procesos",
     phone: "777-7777",
     email: "duckspa@gmail.com",
   },
@@ -92,7 +92,7 @@ export const businesses = [
     icon: "fa-solid fa-brush",
     shortDescription: "DUCK Design, servicios de diseño gráfico.",
     description:
-      "Junto a un equipo de profesionales artísticos multidiscplinario, buscamos satisfacer todas las necesidades orientadas al diseño de nuestros clientes.",
+      "Junto a un equipo de profesionales artísticos multidiscplinario, buscamos satisfacer todas las necesidades orientadas al diseño de nuestros clientes",
     phone: "888-8888",
     email: "duckspa@gmail.com",
   },
