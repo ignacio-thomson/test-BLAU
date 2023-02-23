@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Roboto Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- Swiffy Slider -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Test BLAU</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-center mt-5">
+        <!-- Comienzo Swiffy Slider -->
+        <div
+          class="swiffy-slider slider-item-show3 slider-nav-dark slider-nav-outside slider-nav-page slider-nav-visible slider-indicators-dark slider-indicators-outside"
+        >
+          <div class="p-3">
+            <!-- Comienzo de las CARDS -->
+            <ul class="slider-container card-container">
+              <!-- ----------------------------------------------------------------------------------------- -->
+              <li>
+                <div class="card border border-secondary">
+                  <div class="ps-3 pt-3">
+                    <!-- Se define el titulo de la CARD junto al ICON -->
+                    <h5 class="card-title">
+                      <i
+                        class="fa-solid fa-scissors border border-2 border-secondary rounded-circle p-2"
+                      ></i>
+                      &nbsp;Duck Spa
+                    </h5>
+                  </div>
+                  <!-- Imagen envuelta en BUTTON, al darle Click se abre el MODAL de BootBox -->
+                  <button
+                    onclick="bootbox.alert('Duck Spa para el cuidado del cabello. Teléfono: 999-9999. Correo: duckspa@gmail.com')"
+                  >
+                    <img
+                      src="assets/img/card-img/blake-wisz-GFrBMipOd_E-unsplash.jpg"
+                      class="card-img-top rounded-8 p-3"
+                      alt="Hair salon"
+                    />
+                  </button>
+                  <!-- Sección del contenido de la CARD -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <!-- ICON de Corazón (LIKE) con método/función para cambiar de Color y aumentar/decrementar contador  -->
+                      <button onclick="toggleHeartColor(this)">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                      </button>
+                      <span class="like-count">0</span>
+                      - Salón de Belleza
+                    </h5>
+                    <br />
+                    <!-- Sección de TAGS -->
+                    <p class="card-text border border-secondary rounded-6 p-1">
+                      &nbsp;&nbsp;<b>Etiquetas:</b> belleza, centro, cabello
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!-- ----------------------------------------------------------------------------------------- -->
+              <li>
+                <div class="card border border-secondary">
+                  <div class="ps-3 pt-3">
+                    <!-- Se define el titulo de la CARD junto al ICON -->
+                    <h5 class="card-title">
+                      <i
+                        class="fa-solid fa-pizza-slice border border-2 border-secondary rounded-circle p-2"
+                      ></i>
+                      &nbsp;Duck Pizzeria
+                    </h5>
+                  </div>
+                  <!-- Imagen envuelta en BUTTON, al darle Click se abre el MODAL de BootBox -->
+                  <button
+                    onclick="bootbox.alert('Pizzería Duck, con harto queso. Teléfono: 999-9999. Correo: duckpizza@gmail.com')"
+                  >
+                    <img
+                      src="assets/img/card-img/dan-burton-oNlMfgwLbWI-unsplash.jpg"
+                      class="card-img-top rounded-8 p-3"
+                      alt="Pizzas boxes being handed"
+                    />
+                  </button>
+                  <!-- Sección del contenido de la CARD -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <!-- ICON de Corazón (LIKE) con método/función para cambiar de Color y aumentar/decrementar contador  -->
+                      <button onclick="toggleHeartColor(this)">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                      </button>
+                      <span class="like-count">0</span>
+                      - Pizzería
+                    </h5>
+                    <br />
+                    <!-- Sección de TAGS -->
+                    <p class="card-text border border-secondary rounded-6 p-1">
+                      &nbsp;&nbsp;<b>Etiquetas:</b> pizza, gourmet, restaurant
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!-- ----------------------------------------------------------------------------------------- -->
+              <li>
+                <div class="card border border-secondary">
+                  <div class="ps-3 pt-3">
+                    <!-- Se define el titulo de la CARD junto al ICON -->
+                    <h5 class="card-title">
+                      <i
+                        class="fa-solid fa-mug-hot border border-2 border-secondary rounded-circle p-2"
+                      ></i>
+                      &nbsp;Duck Café
+                    </h5>
+                  </div>
+                  <!-- Imagen envuelta en BUTTON, al darle Click se abre el MODAL de BootBox -->
+                  <button
+                    onclick="bootbox.alert('Granos de café recién molidos. Teléfono: 999-9999. Correo: duckcafe@gmail.com')"
+                  >
+                    <img
+                      src="assets/img/card-img/dan-burton-wHsOV75Xi8Y-unsplash.jpg"
+                      class="card-img-top rounded-8 p-3"
+                      alt="Barista in Cafeteria"
+                    />
+                  </button>
+                  <!-- Sección del contenido de la CARD -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <!-- ICON de Corazón (LIKE) con método/función para cambiar de Color y aumentar/decrementar contador  -->
+                      <button onclick="toggleHeartColor(this)">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                      </button>
+                      <span class="like-count">0</span>
+                      - Cafetería
+                    </h5>
+                    <br />
+                    <!-- Sección de TAGS -->
+                    <p class="card-text border border-secondary rounded-6 p-1">
+                      &nbsp;&nbsp;<b>Etiquetas:</b> café, cafetería, restaurant
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!-- ----------------------------------------------------------------------------------------- -->
+              <li>
+                <div class="card border border-secondary">
+                  <div class="ps-3 pt-3">
+                    <!-- Se define el titulo de la CARD junto al ICON -->
+                    <h5 class="card-title">
+                      <i
+                        class="fa-solid fa-money-bill border border-2 border-secondary rounded-circle p-2"
+                      ></i>
+                      &nbsp;DUCK Finanzas
+                    </h5>
+                  </div>
+                  <!-- Imagen envuelta en BUTTON, al darle Click se abre el MODAL de BootBox -->
+                  <button
+                    onclick="bootbox.alert('Acciones, inversiones, análisis de mercado. Teléfono: 999-9999. Correo: duckfinanza@gmail.com')"
+                  >
+                    <img
+                      src="assets/img/card-img/nick-chong-N__BnvQ_w18-unsplash.jpg"
+                      class="card-img-top rounded-8 p-3"
+                      alt="Actions chart"
+                    />
+                  </button>
+                  <!-- Sección del contenido de la CARD -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <!-- ICON de Corazón (LIKE) con método/función para cambiar de Color y aumentar/decrementar contador  -->
+                      <button onclick="toggleHeartColor(this)">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                      </button>
+                      <span class="like-count">0</span>
+                      - Finanzas
+                    </h5>
+                    <br />
+                    <!-- Sección de TAGS -->
+                    <p class="card-text border border-secondary rounded-6 p-1">
+                      &nbsp;&nbsp;<b>Etiquetas:</b> finanzas, dinero, contador
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!-- ----------------------------------------------------------------------------------------- -->
+              <li>
+                <div class="card border border-secondary">
+                  <div class="ps-3 pt-3">
+                    <!-- Se define el titulo de la CARD junto al ICON -->
+                    <h5 class="card-title">
+                      <i
+                        class="fa-solid fa-shirt border border-2 border-secondary rounded-circle p-2"
+                      ></i>
+                      &nbsp;Duck Boutique
+                    </h5>
+                  </div>
+                  <!-- Imagen envuelta en BUTTON, al darle Click se abre el MODAL de BootBox -->
+                  <button
+                    onclick="bootbox.alert('Boutique de productos y prendas sustentables. Teléfono: 999-9999. Correo: duckboutique@gmail.com')"
+                  >
+                    <img
+                      src="assets/img/card-img/s-o-c-i-a-l-c-u-t-7KkDiSs5UdQ-unsplash.jpg"
+                      class="card-img-top rounded-8 p-3"
+                      alt="Products on display"
+                    />
+                  </button>
+                  <!-- Sección del contenido de la CARD -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <!-- ICON de Corazón (LIKE) con método/función para cambiar de Color y aumentar/decrementar contador  -->
+                      <button onclick="toggleHeartColor(this)">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                      </button>
+                      <span class="like-count">0</span>
+                      - Boutique
+                    </h5>
+                    <br />
+                    <!-- Sección de TAGS -->
+                    <p class="card-text border border-secondary rounded-6 p-1">
+                      &nbsp;&nbsp;<b>Etiquetas:</b> boutique, ropa.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!-- ----------------------------------------------------------------------------------------- -->
+              <li>
+                <div class="card border border-secondary">
+                  <div class="ps-3 pt-3">
+                    <!-- Se define el titulo de la CARD junto al ICON -->
+                    <h5 class="card-title">
+                      <i
+                        class="fa-solid fa-pen border border-2 border-secondary rounded-circle p-2"
+                      ></i>
+                      &nbsp;Duck Tutores
+                    </h5>
+                  </div>
+                  <!-- Imagen envuelta en BUTTON, al darle Click se abre el MODAL de BootBox -->
+                  <button
+                    onclick="bootbox.alert('Tutores orientados a entregar el mayor nivel de enseñanza personalizada. Teléfono: 999-9999. Correo: ducktutores@gmail.com')"
+                  >
+                    <img
+                      src="assets/img/card-img/scott-graham-5fNmWej4tAA-unsplash.jpg"
+                      class="card-img-top rounded-8 p-3"
+                      alt="Tutor and student"
+                    />
+                  </button>
+                  <!-- Sección del contenido de la CARD -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <!-- ICON de Corazón (LIKE) con método/función para cambiar de Color y aumentar/decrementar contador  -->
+                      <button onclick="toggleHeartColor(this)">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                      </button>
+                      <span class="like-count">0</span>
+                      - Educación
+                    </h5>
+                    <br />
+                    <!-- Sección de TAGS -->
+                    <p class="card-text border border-secondary rounded-6 p-1">
+                      &nbsp;&nbsp;<b>Etiquetas:</b> profesores, educación
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!-- ----------------------------------------------------------------------------------------- -->
+              <li>
+                <div class="card border border-secondary">
+                  <div class="ps-3 pt-3">
+                    <!-- Se define el titulo de la CARD junto al ICON -->
+                    <h5 class="card-title">
+                      <i
+                        class="fa-solid fa-robot border border-2 border-secondary rounded-circle p-2"
+                      ></i>
+                      &nbsp;Duck RPA
+                    </h5>
+                  </div>
+                  <!-- Imagen envuelta en BUTTON, al darle Click se abre el MODAL de BootBox -->
+                  <button
+                    onclick="bootbox.alert('Duck RPA es una Startup que busca automatizar procesos. Teléfono: 999-9999. Correo: duckrpa@gmail.com')"
+                  >
+                    <img
+                      src="assets/img/card-img/shridhar-gupta-dZxQn4VEv2M-unsplash.jpg"
+                      class="card-img-top rounded-8 p-3"
+                      alt="People working in an open space office"
+                    />
+                  </button>
+                  <!-- Sección del contenido de la CARD -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <!-- ICON de Corazón (LIKE) con método/función para cambiar de Color y aumentar/decrementar contador  -->
+                      <button onclick="toggleHeartColor(this)">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                      </button>
+                      <span class="like-count">0</span>
+                      - Start Up Tecnológica
+                    </h5>
+                    <br />
+                    <!-- Sección de TAGS -->
+                    <p class="card-text border border-secondary rounded-6 p-1">
+                      &nbsp;&nbsp;<b>Etiquetas:</b> tecnología, RPA
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!-- ----------------------------------------------------------------------------------------- -->
+              <li>
+                <div class="card border border-secondary">
+                  <div class="ps-3 pt-3">
+                    <!-- Se define el titulo de la CARD junto al ICON -->
+                    <h5 class="card-title">
+                      <i
+                        class="fa-solid fa-palette border border-2 border-secondary rounded-circle p-2"
+                      ></i>
+                      &nbsp;DUCK Design
+                    </h5>
+                  </div>
+                  <!-- Imagen envuelta en BUTTON, al darle Click se abre el MODAL de BootBox -->
+                  <button
+                    onclick="bootbox.alert('DUCK es una empresa encargada de entregar servicios de diseño digital. Teléfono: 999-9999. Correo: duckdesign@gmail.com')"
+                  >
+                    <img
+                      src="assets/img/card-img/studio-republic-fotKKqWNMQ4-unsplash.jpg"
+                      class="card-img-top rounded-8 p-3"
+                      alt="Designer working"
+                    />
+                  </button>
+                  <!-- Sección del contenido de la CARD -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <!-- ICON de Corazón (LIKE) con método/función para cambiar de Color y aumentar/decrementar contador  -->
+                      <button onclick="toggleHeartColor(this)">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                      </button>
+                      <span class="like-count">0</span>
+                      - Diseño
+                    </h5>
+                    <br />
+                    <!-- Sección de TAGS -->
+                    <p class="card-text border border-secondary rounded-6 p-1">
+                      &nbsp;&nbsp;<b>Etiquetas:</b> diseño, creatividad, arte
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!-- ----------------------------------------------------------------------------------------- -->
+              <li>
+                <div class="card border border-secondary">
+                  <div class="ps-3 pt-3">
+                    <!-- Se define el titulo de la CARD junto al ICON -->
+                    <h5 class="card-title">
+                      <i
+                        class="fa-solid fa-scale-balanced border border-2 border-secondary rounded-circle p-2"
+                      ></i>
+                      &nbsp;Abogados Duck & Duck
+                    </h5>
+                  </div>
+                  <!-- Imagen envuelta en BUTTON, al darle Click se abre el MODAL de BootBox -->
+                  <button
+                    onclick="bootbox.alert('Asesoría legales entregadas por un equipo de profesionales experimentados. Teléfono: 999-9999. Correo: duck&duck@gmail.com')"
+                  >
+                    <img
+                      src="assets/img/card-img/towfiqu-barbhuiya-nApaSgkzaxg-unsplash.jpg"
+                      class="card-img-top rounded-8 p-3"
+                      alt="Lawyer working"
+                    />
+                  </button>
+                  <!-- Sección del contenido de la CARD -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <!-- ICON de Corazón (LIKE) con método/función para cambiar de Color y aumentar/decrementar contador  -->
+                      <button onclick="toggleHeartColor(this)">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                      </button>
+                      <span class="like-count">0</span>
+                      - Asesoría Legal
+                    </h5>
+                    <br />
+                    <!-- Sección de TAGS -->
+                    <p class="card-text border border-secondary rounded-6 p-1">
+                      &nbsp;&nbsp;<b>Etiquetas:</b> abogado, legalidad, asesoría
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- ----------------------------------------------------------------------------------------- -->
+          </div>
+          <!-- Botones para navegar el Slider -->
+          <button type="button" class="slider-nav"></button>
+          <button type="button" class="slider-nav slider-nav-next"></button>
+
+          <div class="slider-indicators">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+    ></script>
+    <!-- JQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Boot Box -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/6.0.0/bootbox.min.js"
+      integrity="sha512-oVbWSv2O4y1UzvExJMHaHcaib4wsBMS5tEP3/YkMP6GmkwRJAa79Jwsv+Y/w7w2Vb/98/Xhvck10LyJweB8Jsw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Swiffy Slider -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <!-- Local JS -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

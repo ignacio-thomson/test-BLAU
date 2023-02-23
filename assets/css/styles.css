@@ -1,0 +1,12 @@
+button {
+  border: none;
+  outline: none;
+  background: none;
+  color: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.card {
+  min-height: 29rem;
+}
