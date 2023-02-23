@@ -6,17 +6,19 @@ export const businesses = [
     tags: "belleza, centro, cabello",
     img: "assets/img/card-img/blake-wisz-GFrBMipOd_E-unsplash.jpg",
     icon: "fa-solid fa-scissors",
+    shortDescription: "Peluquería y Salón de Belleza Duck Spa",
     description:
       "Peluquería Duck Spa, encargada del corte de pelo de las celebridades más reconocidas del país. Agenda abierta.",
     phone: "111-1111",
     email: "duckspa@gmail.com",
   },
   {
-    name: "Duck Pizzeria",
+    name: "Duck Pizzería",
     category: "Pizzería",
     tags: "pizza, gourmet, restaurant",
     img: "assets/img/card-img/dan-burton-oNlMfgwLbWI-unsplash.jpg",
     icon: "fa-solid fa-pizza-slice",
+    shortDescription: "Pizzería y Restaurant Duck Pizzería",
     description:
       "Duck Pizzería, competidores directos de OhMyPizza y Waldos. Abiertos de Lunes a Viernes, de 11am - 8pm",
     phone: "222-2222",
@@ -28,6 +30,7 @@ export const businesses = [
     tags: "café, cafetería, restaurant",
     img: "assets/img/card-img/dan-burton-wHsOV75Xi8Y-unsplash.jpg",
     icon: "fa-solid fa-mug-hot",
+    shortDescription: "Cafetería Duck Café",
     description:
       "Cafetería de renombre, con granos de café molidos el mismo día para vivir la mejor experiencia del café.",
     phone: "333-3333",
@@ -39,6 +42,7 @@ export const businesses = [
     tags: "finanzas, dinero, contador",
     img: "assets/img/card-img/nick-chong-N__BnvQ_w18-unsplash.jpg",
     icon: "fa-solid fa-money-bill",
+    shortDescription: "Servicios de Finanzas DUCK",
     description:
       "Servicios financieros DUCK, disponibles de lunes a viernes, de 8am - 6pm.",
     phone: "444-4444",
@@ -50,6 +54,7 @@ export const businesses = [
     tags: "boutique, ropa",
     img: "assets/img/card-img/s-o-c-i-a-l-c-u-t-7KkDiSs5UdQ-unsplash.jpg",
     icon: "fa-solid fa-shirt",
+    shortDescription: "Boutique de Ropa Importada, Duck Boutique",
     description:
       "Ropa importada directamente desde Europa, manufacturada por las fábricas más importantes del continente.",
     phone: "555-5555",
@@ -61,6 +66,7 @@ export const businesses = [
     tags: "profesores, educación",
     img: "assets/img/card-img/scott-graham-5fNmWej4tAA-unsplash.jpg",
     icon: "fa-solid fa-pen",
+    shortDescription: "Servicio de educadores Duck Tutores",
     description:
       "Buscamos prestar la mejor experiencia que pueda brindar la enseñanza personalizada. Se realizan clases personales y en grupo.",
     phone: "666-6666",
@@ -72,6 +78,7 @@ export const businesses = [
     tags: "tecnología, RPA",
     img: "assets/img/card-img/shridhar-gupta-dZxQn4VEv2M-unsplash.jpg",
     icon: "fa-solid fa-robot",
+    shortDescription: "Automatización de Procesos Duck RPA",
     description:
       "Duck RPA busca generar un avance enorme en el mundo empresarial de Chile, entregando el poder de la automatización de procesos.",
     phone: "777-7777",
@@ -83,6 +90,7 @@ export const businesses = [
     tags: "diseño, creatividad, arte",
     img: "assets/img/card-img/studio-republic-fotKKqWNMQ4-unsplash.jpg",
     icon: "fa-solid fa-brush",
+    shortDescription: "DUCK Design, servicios de diseño gráfico.",
     description:
       "Junto a un equipo de profesionales artísticos multidiscplinario, buscamos satisfacer todas las necesidades orientadas al diseño de nuestros clientes.",
     phone: "888-8888",
@@ -94,6 +102,7 @@ export const businesses = [
     tags: "abogado, legalidad, leyes",
     img: "assets/img/card-img/towfiqu-barbhuiya-nApaSgkzaxg-unsplash.jpg",
     icon: "fa-solid fa-scale-balanced",
+    shortDescription: "¡Legal Services, for all your needs!",
     description: "¿Legal problems? ¡Better call Saul! - Saul Goodman",
     phone: "(505) 503-4455",
     email: "duckspa@gmail.com",

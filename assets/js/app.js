@@ -48,6 +48,8 @@ businesses.forEach((item) => {
           - ${item.category}
         </h5>
         <br />
+        <p class="card-text">${item.shortDescription}</p>
+        <br />
         <p class="card-text border border-secondary rounded-6 p-1">
         &nbsp;&nbsp;<b>Etiquetas:</b> ${item.tags}
         </p>
